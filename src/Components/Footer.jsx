@@ -13,6 +13,7 @@ import PropTypes from "prop-types";
 import devDotToIcon from "../images/socials/devdotto.svg";
 import envelopeIcon from "../images/socials/envelope.svg";
 import gitHubIcon from "../images/socials/github.svg";
+import gitLabIcon from "../images/socials/gitlab.svg";
 import instagramIcon from "../images/socials/instagram.svg";
 import linkedInIcon from "../images/socials/linkedin.svg";
 import mediumIcon from "../images/socials/medium.svg";
@@ -31,6 +32,7 @@ const Footer = (props) => {
     devDotTo,
     email,
     gitHub,
+    gitLab,
     instagram,
     linkedIn,
     medium,
@@ -73,6 +75,11 @@ const Footer = (props) => {
         {gitHub && (
           <a href={`https://github.com/${gitHub}`} target="_blank" rel="noopener noreferrer">
             <img src={gitHubIcon} alt="GitHub" className="socialIcon" />
+          </a>
+        )}
+        {gitLab && (
+          <a href={`https://gitlab.com/${gitLab}`} target="_blank" rel="noopener noreferrer">
+            <img src={gitLabIcon} alt="GitLab" className="socialIcon" />
           </a>
         )}
         {instagram && (
