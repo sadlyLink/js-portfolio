@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://sadlylink.github.io/portfolio-template",
+  "homepage": "https://sadlylink.github.io/js-portfolio",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://sadlylink.github.io/portfolio-template'",
+    "build-gh": "parcel build --public-url 'https://sadlylink.github.io/js-portfolio'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
